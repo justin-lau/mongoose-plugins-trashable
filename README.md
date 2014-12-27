@@ -1,6 +1,6 @@
 # mongoose-plugins-trashable
 
-[![Build Status](https://travis-ci.org/justin-lau/mongoose-plugins-trashable.svg?branch=master)](https://travis-ci.org/justin-lau/mongoose-plugins-trashable)
+[![Build Status](https://travis-ci.org/justin-lau/mongoose-plugins-trashable.svg?branch=v1.0.0)](https://travis-ci.org/justin-lau/mongoose-plugins-trashable)
 ![devDependencies Status](https://david-dm.org/justin-lau/mongoose-plugins-trashable/dev-status.svg?style=flat)
 
 This mongoose plugin adds the ability to soft-delete model instances,
