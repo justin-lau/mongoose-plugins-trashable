@@ -1,0 +1,48 @@
+{
+    "name"        : "mongoose-plugins-trashable",
+    "description" : "A mongoose plugin that adds ablity to trash/untrash (soft deletes) model instances.",
+    "version"     : "1.0.0",
+    "homepage"    : "https://github.com/justin-lau/mongoose-plugins-trashable",
+    "keywords": [
+        "mongoose",
+        "mongodb",
+        "soft delete",
+        "soft-delete",
+        "delete",
+        "remove",
+        "trash",
+        "un-trash"
+    ],
+    "author" : {
+        "name"  : "Justin Lau",
+        "email" : "justin@tclau.com",
+        "url"   : "http://tclau.com"
+    },
+    "repository": {
+        "type" : "git",
+        "url"  : "git@github.com:justin-lau/mongoose-plugins-trashable.git"
+    },
+    "bugs" : {
+        "url" : "https://github.com/justin-lau/mongoose-plugins-trashable/issues"
+    },
+    "licenses" : [{
+        "type" : "MIT",
+        "url"  : "https://github.com/justin-lau/mongoose-plugins-trashable/blob/master/LICENSE-MIT"
+    }],
+    "main" : "src/mongoose-plugins-trashable",
+    "engines" : {
+        "node" : ">= 0.10.34"
+    },
+    "scripts" : {
+        "test" : "NODE_ENV=test ./node_modules/.bin/mocha --compilers coffee:coffee-script/register --reporter dot test/**/*.test.coffee"
+    },
+    "devDependencies" : {
+        "chai"             : "^1.10.0",
+        "chai-as-promised" : "^4.1.1",
+        "coffee-script"    : "^1.8.0",
+        "debug"            : "^2.1.0",
+        "mocha"            : "^2.0.1",
+        "mongoose"         : "~3.8.21",
+        "q"                : "^1.1.2"
+    }
+}
