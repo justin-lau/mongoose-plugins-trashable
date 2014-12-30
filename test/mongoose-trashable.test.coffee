@@ -6,7 +6,7 @@ Q                 = require('q')
 Schema            = mongoose.Schema
 Query             = mongoose.Query
 should            = chai.should()
-mongooseTrashable = require('../src/mongoose-plugins-trashable')
+mongooseTrashable = require('../')
 
 chai.use(chaiAsPromised)
 

@@ -29,12 +29,15 @@
         "type" : "MIT",
         "url"  : "https://github.com/justin-lau/mongoose-plugins-trashable/blob/master/LICENSE-MIT"
     }],
-    "main" : "src/mongoose-plugins-trashable",
+    "main" : "lib/mongoose-plugins-trashable",
     "engines" : {
         "node" : ">= 0.10.34"
     },
     "scripts" : {
-        "test" : "NODE_ENV=test ./node_modules/.bin/mocha --compilers coffee:coffee-script/register --reporter dot test/**/*.test.coffee"
+        "build"      : "NODE_ENV=production node_modules/.bin/coffee --compile --map --output lib src",
+        "prepublish" : "npm run build",
+        "pretest"    : "npm run build",
+        "test"       : "NODE_ENV=test node_modules/.bin/mocha --compilers coffee:coffee-script/register --reporter dot test/**/*.test.coffee"
     },
     "devDependencies" : {
         "chai"             : "^1.10.0",
