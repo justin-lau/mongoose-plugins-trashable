@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/justin-lau/mongoose-plugins-trashable.svg?branch=master)](https://travis-ci.org/justin-lau/mongoose-plugins-trashable)
 ![devDependencies Status](https://david-dm.org/justin-lau/mongoose-plugins-trashable/dev-status.svg?style=flat)
-[![Coverage Status](https://img.shields.io/coveralls/justin-lau/mongoose-plugins-trashable.svg)](https://coveralls.io/r/justin-lau/mongoose-plugins-trashable?branch=master)
+[![Coverage Status](https://img.shields.io/coveralls/justin-lau/mongoose-plugins-trashable.svg)](https://coveralls.io/r/justin-lau/mongoose-plugins-trashable?branch=v1.1.2)
 
 This mongoose plugin adds the ability to soft-delete model instances,
 optionally records the id of a model (usually a User) responsible for the action.
