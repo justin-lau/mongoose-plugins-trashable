@@ -1,7 +1,7 @@
 {
     "name"        : "mongoose-plugins-trashable",
     "description" : "A mongoose plugin that adds ablity to trash/untrash (soft deletes) model instances.",
-    "version"     : "1.1.1",
+    "version"     : "1.1.2",
     "homepage"    : "https://github.com/justin-lau/mongoose-plugins-trashable",
     "keywords": [
         "mongoose",
