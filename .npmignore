@@ -1,4 +1,6 @@
 coverage/
 docs/
+lib/*.js.map
+src/
 test/
 .travis.yml
